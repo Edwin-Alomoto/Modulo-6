@@ -1,0 +1,12 @@
+//CLASES ABSTRACTAS
+//OBLIGAR A LOS HIJO IMPLEMETAR LOS METODO ABTRACTOS QUE TIENE EL PADRE YA QUE LE DIO FLOJERA HACERLO JAJA SOLO COLOCO EL NOMBRE LOS HIJOS SE ENCARGA DE REALIZARLOS.
+abstract class Figura {
+  //ATRIBUTO
+  String color;
+  //CONSTRUCTOR
+  Figura(this.color) {}
+  //METODOS
+  double calcularArea();
+
+  double calcularPerimetro();
+}
